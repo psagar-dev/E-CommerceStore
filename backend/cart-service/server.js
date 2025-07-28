@@ -23,6 +23,7 @@ app.use('/api/cart', require('./routes/cart'));
 
 // Health check
 app.get('/health', (req, res) => {
+  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
   res.json({ service: 'Cart Service', status: 'OK', port: PORT });
 });
 

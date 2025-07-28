@@ -24,6 +24,7 @@ app.use('/api/auth', require('./routes/auth'));
 
 // Health check
 app.get('/health', (req, res) => {
+  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
   res.json({ service: 'User Service', status: 'OK', port: PORT });
 });
 

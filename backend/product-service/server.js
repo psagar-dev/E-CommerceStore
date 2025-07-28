@@ -24,6 +24,7 @@ app.use('/api/categories', require('./routes/categories'));
 
 // Health check
 app.get('/health', (req, res) => {
+  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
   res.json({ service: 'Product Service', status: 'OK', port: PORT });
 });
 

@@ -24,6 +24,7 @@ app.use('/api/payments', require('./routes/payments'));
 
 // Health check
 app.get('/health', (req, res) => {
+  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, private');
   res.json({ service: 'Order Service', status: 'OK', port: PORT });
 });
 
