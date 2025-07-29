@@ -5,19 +5,19 @@ This is a full-stack **MERN** (MongoDB, Express.js, React, Node.js) e-commerce a
 ---
 
 ## 📑 Table of Contents
-- [Architecture Overview](#architecture-overview)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Docker Network Setup](#docker-network-setup)
-- [Microservices](#microservices)
-  - [User Service](#user-service)
-  - [Product Service](#product-service)
-  - [Cart Service](#cart-service)
-  - [Order Service](#order-service)
-  - [Frontend Service](#frontend-service)
-- [Terraform Infrastructure Provisioning](#terraform-infrastructure-provisioning)
-- [Deployment Steps](#deployment-steps)
-- [License](#license)
+- Architecture Overview
+- Technology Stack
+- Project Structure
+- Docker Network Setup
+- Microservices
+  - User Service
+  - Product Service
+  - Cart Service
+  - Order Service
+  - Frontend Service
+- Terraform Infrastructure Provisioning
+- Deployment Steps
+- Screenshots of Production Modules
 
 ---
 
